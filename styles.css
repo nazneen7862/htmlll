@@ -1,0 +1,72 @@
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e3f2fd; /* Light blue background for a fresh look */
+}
+
+/* ID Selector */
+#main-header {
+  background-color: #ff6f61; /* Vibrant coral color for header */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Class Selector */
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #00897b; /* Dark teal for navbar */
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #fdd835; /* Bright yellow for links */
+  text-decoration: none;
+}
+
+/* Styling Links */
+.navbar ul li a:hover {
+  color: #ffeb3b; /* More vibrant yellow on hover */
+}
+
+/* Table Styling */
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #ffebee; /* Light pink background for the table */
+}
+
+table, th, td {
+  border: 2px solid #c2185b; /* Dark pink border */
+}
+
+th {
+  background-color: #8e24aa; /* Purple background for table headers */
+  color: white;
+}
+
+td {
+  background-color: #f3e5f5; /* Light lavender for table cells */
+  color: #5e35b1; /* Purple text */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Paragraph Styling */
+p {
+  margin: 10px 20px;
+  line-height: 1.6;
+  color: #424242; /* Dark gray text */
+}
+
+/* CSS Comments */
+/* Organized sections with vibrant and unique colors */
